@@ -1,0 +1,159 @@
+[
+
+    {
+        "Name": "Missy Dubourde",
+        "Colour": "Yellow",
+        "Age": "9",
+        "Birthday": [14,2,"February 14th"],
+        "Hobbies": "Swimming, Medicine",
+        "Description": "A creepy little girl, who wants to be a doctor. She cuts up dead things, for fun. Missy then has nightmares about them.",
+        "Fears": "Dead things coming back to life to haunt her.",
+        "Speed": [7,7,6,6,6,5,4,3,6],
+        "Might": [7,6,5,4,3,3,3,2,5],
+        "Sanity":[7,6,5,5,4,3,2,1,6],
+        "Knowledge": [6,6,6,5,4,4,3,2,5]
+    }
+    , {
+        "Name": "Zoe Ingstrom",
+        "Colour": "Yellow",
+        "Age": "8",
+        "Birthday": [5,11,"November 5th"],
+        "Hobbies": "Dolls, Music",
+        "Description": "Zoe has an implied tragic story. Raised in an unhappy home, she uses dolls to express her emotions.",
+        "Fears": "The Boogeyman.",
+        "Speed": [8,8,6,5,4,4,4,4,5],
+        "Might": [7,6,4,4,3,3,2,2,5],
+        "Sanity":[8,7,6,6,5,5,4,3,6],
+        "Knowledge": [5,5,5,4,4,3,2,1,6]
+    }
+    , {
+        "Name": "Jenny LeClerc",
+        "Colour": "Purple",
+        "Age": "21",
+        "Birthday": [4,3,"March 4th"],
+        "Hobbies": "Reading, Soccer (or Football for us Brits)",
+        "Description": "A quiet bookworm whose mother disappeared when she was younger. Jenny feels always alone.",
+        "Fears": "Being trapped in a crowd or lost in the open air.",
+        "Speed": [8,6,5,4,4,4,3,2,5],
+        "Might": [8,6,5,4,4,4,4,3,6],
+        "Sanity":[6,5,4,4,4,2,1,1,4],
+        "Knowledge": [8,6,5,4,4,3,3,2,6]
+    }
+    , {
+        "Name": "Heather Granville",
+        "Colour": "Purple",
+        "Age": "18",
+        "Birthday": [2,8,"August 2nd"],
+        "Hobbies": "Television, Shopping",
+        "Description": "Seen as perfect in both her eyes and the eyes of others, when things aren’t perfect she suffers from headaches. She keeps smiling anyway.",
+        "Fears": "Not being perfect.",
+        "Speed": [8,7,6,6,5,4,3,3,6],
+        "Might": [8,7,6,5,4,3,3,3,6],
+        "Sanity":[6,6,6,5,4,3,3,3,6],
+        "Knowledge": [8,7,6,5,4,3,3,2,4]
+    }
+    , {
+        "Name": "Madame Zostra",
+        "Colour": "Blue",
+        "Age": "37",
+        "Birthday": [10,12,"December 10th"],
+        "Hobbies": "Astrology, Cooking, Baseball",
+        "Description": "Also known as Belladina, Madame Zostra is a tarot card reader and tea-leaf reader with her own stay-at-home astrology business.",
+        "Fears": "Death, especially that of her self.",
+        "Speed": [7,6,6,5,5,3,3,2,6],
+        "Might": [6,5,5,5,4,3,3,2,5],
+        "Sanity":[8,8,7,6,5,4,4,4,6],
+        "Knowledge": [6,6,5,4,4,4,3,1,5]
+    }
+    , {
+        "Name": "Vivian Lopez",
+        "Colour": "Blue",
+        "Age": "42",
+        "Birthday": [11,1,"January 11th"],
+        "Hobbies": "Old Movies, Horses",
+        "Description": "A small bookshop owner who, when finances become difficult, has thoughts of arson.",
+        "Fears": "The same as one of her greatest loves – fire.",
+        "Speed": [8,7,6,4,4,4,4,3,5],
+        "Might": [8,6,5,4,4,2,2,2,6],
+        "Sanity":[8,8,7,6,5,4,4,4,6],
+        "Knowledge": [7,6,6,5,5,5,5,4,5]
+    }
+    , {
+        "Name": "Darrin “Flash” Williams",
+        "Colour": "Red",
+        "Age": "20",
+        "Birthday": [6,6,"June 6th"],
+        "Hobbies": "Track, Music, Shakespearean Literature",
+        "Description": "Flash is a paranoid runner, who can’t help but shake the feeling that something is chasing him.",
+        "Fears": "Getting caught by that which is chasing him.",
+        "Speed": [8,7,7,6,5,4,4,4,4],
+        "Might": [7,6,6,5,4,3,3,2,6],
+        "Sanity":[7,5,5,5,4,3,2,1,6],
+        "Knowledge": [7,5,5,5,4,3,3,2,6]
+    }
+    , {
+        "Name": "Ox Bellows",
+        "Colour": "Red",
+        "Age": "20",
+        "Birthday": [6,6,"June 6th"],
+        "Hobbies": "Football, Shiny Objects",
+        "Description": "A big kid who once had to lash out. Ox is now haunted by his past and what he did that one time.",
+        "Fears": "The dark.",
+        "Speed": [6,5,5,4,3,2,2,2,4],
+        "Might": [8,8,7,6,6,5,5,4,6],
+        "Sanity":[7,6,5,5,4,3,2,2,6],
+        "Knowledge": [6,6,5,5,3,3,2,2,6]
+    }
+    , {
+        "Name": "Brandon Jaspers",
+        "Colour": "Green",
+        "Age": "12",
+        "Birthday": [12,5,"May 12th"],
+        "Hobbies": "Computers, Camping, Hockey",
+        "Description": "A kid who never liked playing with traditional toys, Brandon could swear his old puppet was moving closer to him when he slept.",
+        "Fears": "Puppets, especially those of the clown variety.",
+        "Speed": [8,7,6,5,4,4,4,3,6],
+        "Might": [7,6,6,5,4,3,3,2,5],
+        "Sanity":[8,7,6,5,4,3,3,3,5],
+        "Knowledge": [7,6,6,5,5,3,3,1,6]
+    }
+    , {
+        "Name": "Peter Akimoto",
+        "Colour": "Green",
+        "Age": "13",
+        "Birthday": [3,9,"September 3rd"],
+        "Hobbies": "Bugs, Basketball",
+        "Description": "Seriously bullied by his family, Peter liked to hide under his house and look at bugs. He wants to be an entomologist.",
+        "Fears": "Getting caught somewhere he can’t get out.",
+        "Speed": [7,7,6,6,4,3,3,3,5],
+        "Might": [8,6,5,5,4,3,3,2,6],
+        "Sanity":[7,6,6,5,4,4,4,3,5],
+        "Knowledge": [8,7,7,6,5,4,4,3,6]
+    }
+    , {
+        "Name": "Father Rhinehardt",
+        "Colour": "White",
+        "Age": "62",
+        "Birthday": [29,4,"April 29th"],
+        "Hobbies": "Fencing, Gardening",
+        "Description": "A man who turned to religion to escape persecution, Father Rhinehardt is haunted by the mad whispers of the confessional booth.",
+        "Fears": "Going mad.",
+        "Speed": [7,7,6,5,4,3,3,2,6],
+        "Might": [7,5,5,4,4,2,2,1,6],
+        "Sanity":[8,7,7,6,5,5,4,3,4],
+        "Knowledge": [8,6,6,5,4,3,3,1,5]
+    }
+    , {
+        "Name": "Professor Longfellow",
+        "Colour": "White",
+        "Age": "57",
+        "Birthday": [27,7,"July 27th"],
+        "Hobbies": "Gaelic Music, Drama, Fine Wines",
+        "Description": "An aristocrat by birth, Professor Longfellow now lives with his mother, broke and wondering about her life insurance policy.",
+        "Fears": "Losing everything he has.",
+        "Speed": [6,6,5,5,4,4,2,2,5],
+        "Might": [6,6,5,5,4,3,2,1,6],
+        "Sanity":[7,6,5,5,4,3,3,1,6],
+        "Knowledge": [8,7,6,5,5,5,5,4,4]
+    }
+]

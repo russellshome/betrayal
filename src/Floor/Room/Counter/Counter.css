@@ -1,0 +1,71 @@
+.counters {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.countercontainer {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    cursor: pointer;
+}
+
+.counter {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.counter.Yellow {
+    background-color: yellow;
+}
+.counter.Purple {
+    background-color: mediumpurple;
+}
+.counter.Blue {
+    background-color: lightblue;
+}
+.counter.Red {
+    background-color: salmon;
+}
+.counter.Green {
+    background-color:darkseagreen;
+}
+.counter.White {
+    background-color: white;
+}
+.counter-item.hide {
+    display: none;
+}
+div.countercontainer:first-child {
+    left: 8px;
+    z-index: 10;
+}
+div.countercontainer:nth-child(2) {
+    left: 46px;
+    z-index: 10;
+}
+div.countercontainer:nth-child(3) {
+    left: 84px;
+    z-index: 10;
+}
+
+div.countercontainer:nth-child(4) {
+    left: 8px;
+    top: 46px;
+    z-index: 8;
+}
+
+div.countercontainer:nth-child(5) {
+    left: 46px;
+    top: 46px;
+    z-index: 8;
+}
+div.countercontainer:nth-child(6) {
+    left: 84px;
+    top: 46px;
+    z-index: 8;
+}

@@ -1,0 +1,333 @@
+{
+  "rooms": [
+    {
+      "Name": "Abandoned Room",
+      "Exits": "NSEW",
+      "Contents": "O",
+      "Locations": "BG",
+      "Text": ""
+    },
+    {
+      "Name": "Attic",
+      "Exits": "S",
+      "Contents": "E",
+      "Locations": "U",
+      "Text": "When exiting, you must attempt a Speed roll of 3+. If you fail, lose 1 Might (but continue moving)."
+    },
+    {
+      "Name": "Balcony",
+      "Exits": "NS",
+      "Contents": "O",
+      "Locations": "U",
+      "Text": ""
+    },
+    {
+      "Name": "Ballroom",
+      "Exits": "NSEW",
+      "Contents": "E",
+      "Locations": "G",
+      "Text": ""
+    },
+    {
+      "Name": "Basement Landing",
+      "Exits": "NSEW",
+      "Contents": "",
+      "Locations": "B",
+      "Text": ""
+    },
+    {
+      "Name": "Bedroom",
+      "Exits": "EW",
+      "Contents": "E",
+      "Locations": "U",
+      "Text": ""
+    },
+    {
+      "Name": "Bloody Room",
+      "Exits": "NSEW",
+      "Contents": "I",
+      "Locations": "GU",
+      "Text": ""
+    },
+    {
+      "Name": "Catacombs",
+      "Exits": "NS",
+      "Contents": "O",
+      "Locations": "B",
+      "Text": "You can attempt a Sanity roll of 6+ to cross. If you fail, you stop moving."
+    },
+    {
+      "Name": "Chapel",
+      "Exits": "N",
+      "Contents": "E",
+      "Locations": "GU",
+      "Text": "Once per game, if you end your turn here, gain 1 Sanity."
+    },
+    {
+      "Name": "Charred Room",
+      "Exits": "NSEW",
+      "Contents": "O",
+      "Locations": "GU",
+      "Text": ""
+    },
+    {
+      "Name": "Chasm",
+      "Exits": "EW",
+      "Contents": "",
+      "Locations": "B",
+      "Text": "You can attempt a Speed roll of 3+ to cross. If you fail, you stop moving."
+    },
+    {
+      "Name": "Coal Chute",
+      "Exits": "N",
+      "Contents": "",
+      "Locations": "G",
+      "Text": "One-way slide to Basement Landing."
+    },
+    {
+      "Name": "Collapsed Room",
+      "Exits": "NSEW",
+      "Contents": "",
+      "Locations": "GU",
+      "Text": "You must attempt a Speed roll of 5+ to avoid falling. If you fail the roll, draw a basement tile and put it in play. You fall there and take 1 die of physical damage."
+    },
+    {
+      "Name": "Conservatory",
+      "Exits": "N",
+      "Contents": "E",
+      "Locations": "GU",
+      "Text": ""
+    },
+    {
+      "Name": "Creaky Hallway",
+      "Exits": "NSEW",
+      "Contents": "",
+      "Locations": "BGU",
+      "Text": ""
+    },
+    {
+      "Name": "Crypt",
+      "Exits": "N",
+      "Contents": "E",
+      "Locations": "B",
+      "Text": "If you end your turn here, take 1 point of mental damage."
+    },
+    {
+      "Name": "Dining Room",
+      "Exits": "NE",
+      "Contents": "O",
+      "Locations": "G",
+      "Text": ""
+    },
+    {
+      "Name": "Dusty Hallway",
+      "Exits": "NSEW",
+      "Contents": "",
+      "Locations": "BGU",
+      "Text": ""
+    },
+    {
+      "Name": "Entrance Hall",
+      "Exits": "NSE",
+      "Contents": "",
+      "Locations": "B",
+      "Text": ""
+    },
+    {
+      "Name": "Foyer",
+      "Exits": "NS",
+      "Contents": "",
+      "Locations": "G",
+      "Text": ""
+    },
+    {
+      "Name": "Furnace Room",
+      "Exits": "NSW",
+      "Contents": "O",
+      "Locations": "B",
+      "Text": "If you end your turn here, take 1 point of physical damage."
+    },
+    {
+      "Name": "Gallery",
+      "Exits": "NS",
+      "Contents": "O",
+      "Locations": "U",
+      "Text": "You can choose to fall to the Ballroom if it's in the house. If you do, take 1 die of physical damage."
+    },
+    {
+      "Name": "Game Room",
+      "Exits": "NSE",
+      "Contents": "E",
+      "Locations": "BGU",
+      "Text": ""
+    },
+    {
+      "Name": "Gardens",
+      "Exits": "NS",
+      "Contents": "E",
+      "Locations": "G",
+      "Text": ""
+    },
+    {
+      "Name": "Grand Staircase",
+      "Exits": "E+Upper Landing",
+      "Contents": "",
+      "Locations": "G",
+      "Text": "Leads to Upper Landing"
+    },
+    {
+      "Name": "Graveyard",
+      "Exits": "S",
+      "Contents": "E",
+      "Locations": "G",
+      "Text": "When exiting, you must attempt a Sanity roll of 4+. If you fail, lose 1 Knowledge (but continue moving)."
+    },
+    {
+      "Name": "Gymnasium",
+      "Exits": "SE",
+      "Contents": "O",
+      "Locations": "BU",
+      "Text": "Once per game, if you end your turn here, gain 1 Speed."
+    },
+    {
+      "Name": "Junk Room",
+      "Exits": "NSEW",
+      "Contents": "O",
+      "Locations": "BGU",
+      "Text": "When exiting, you must attempt a Might roll of 3+. If you fail, lose 1 Speed (but continue moving)."
+    },
+    {
+      "Name": "Kitchen",
+      "Exits": "NE",
+      "Contents": "O",
+      "Locations": "BG",
+      "Text": ""
+    },
+    {
+      "Name": "Larder",
+      "Exits": "NS",
+      "Contents": "I",
+      "Locations": "B",
+      "Text": "Once per game, if you end your turn here, gain 1 Might."
+    },
+    {
+      "Name": "Library",
+      "Exits": "SW",
+      "Contents": "E",
+      "Locations": "GU",
+      "Text": "Once per game, if you end your turn here, gain 1 Knowledge."
+    },
+    {
+      "Name": "Master Bedroom",
+      "Exits": "NW",
+      "Contents": "O",
+      "Locations": "U",
+      "Text": ""
+    },
+    {
+      "Name": "Mystic Elevator",
+      "Exits": "N",
+      "Contents": "",
+      "Locations": "BGU",
+      "Text": "Once per turn, roll 2 dice and move this room next to any open door on: 4) Any floor 3) Upper floor 2) Ground floor 1) Basement 0) Basement, then take 1 die of physical damage."
+    },
+    {
+      "Name": "Operating Laboratory",
+      "Exits": "SE",
+      "Contents": "E",
+      "Locations": "BU",
+      "Text": ""
+    },
+    {
+      "Name": "Organ Room",
+      "Exits": "SW",
+      "Contents": "E",
+      "Locations": "BGU",
+      "Text": ""
+    },
+    {
+      "Name": "Patio",
+      "Exits": "NSW",
+      "Contents": "E",
+      "Locations": "G",
+      "Text": ""
+    },
+    {
+      "Name": "Pentagram Chamber",
+      "Exits": "E",
+      "Contents": "O",
+      "Locations": "B",
+      "Text": "When exiting, you must attempt a Knowledge roll of 4+. If you fail, lose 1 sanity (but continue moving)."
+    },
+    {
+      "Name": "Research Laboratory",
+      "Exits": "NS",
+      "Contents": "E",
+      "Locations": "BU",
+      "Text": ""
+    },
+    {
+      "Name": "Servants' Quarters",
+      "Exits": "NSEW",
+      "Contents": "O",
+      "Locations": "BU",
+      "Text": ""
+    },
+    {
+      "Name": "Stairs From Basement",
+      "Exits": "NS",
+      "Contents": "",
+      "Locations": "B",
+      "Text": "Leads to and from Foyer"
+    },
+    {
+      "Name": "Statuary Corridor",
+      "Exits": "NS",
+      "Contents": "E",
+      "Locations": "BGU",
+      "Text": ""
+    },
+    {
+      "Name": "Storeroom",
+      "Exits": "N",
+      "Contents": "I",
+      "Locations": "BU",
+      "Text": ""
+    },
+    {
+      "Name": "Tower",
+      "Exits": "EW",
+      "Contents": "E",
+      "Locations": "U",
+      "Text": "You can attempt a Might roll of 3+ to cross. If you fail, you stop moving."
+    },
+    {
+      "Name": "Underground Lake",
+      "Exits": "NW",
+      "Contents": "E",
+      "Locations": "B",
+      "Text": ""
+    },
+    {
+      "Name": "Upper Landing",
+      "Exits": "NSEW+Grand Staircase",
+      "Contents": "",
+      "Locations": "G",
+      "Text": ""
+    },
+    {
+      "Name": "Vault",
+      "Exits": "N",
+      "Contents": "EII",
+      "Locations": "BU",
+      "Text": "You can attempt a Knowledge roll of 6+ to open and empty the vault."
+    },
+    {
+      "Name": "Wine Cellar",
+      "Exits": "NS",
+      "Contents": "I",
+      "Locations": "B",
+      "Text": ""
+    }
+  ]
+}

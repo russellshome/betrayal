@@ -1,0 +1,25 @@
+.room .r90 {
+    transform: rotate(90deg);
+}
+
+.room .r180 {
+    transform: rotate(180deg);
+}
+
+.room .r270 {
+    transform: rotate(270deg);
+}
+
+.room button {
+    display: none;
+}
+
+.room img {
+    display: block;
+    height: 120px;
+    width: 120px;
+}
+
+.rooms {
+    overflow: scroll;
+}

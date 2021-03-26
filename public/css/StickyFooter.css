@@ -1,0 +1,37 @@
+﻿/* flexy sticky footer */
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0; /* Takes away the default margin which would otherwise make the body extend beyond 100% of page height */
+    display: flex; /* Items have equal height */
+    display: -ms-flexbox; /* same as display:flex for IE11 */
+    display: -webkit-flex; /* iPad & Safari */
+    flex-direction: column; /* layout item's content vertically */
+    -ms-flex-direction: column; /* flex-direction: column for IE11 */
+    height: 100%; /* Needed for IE11 so that body takes up at least 100% of height */
+}
+
+header {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0;
+    -ms-flex: none;
+    flex: none;
+}
+
+main {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    flex-basis: auto;
+    min-height: 1px;
+}
+
+footer {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0;
+    -ms-flex: none;
+    flex: none;
+}

@@ -1,0 +1,8 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header, main, footer {
+    margin-left: 15px;
+    margin-right: 15px;
+}

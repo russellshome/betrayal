@@ -1,0 +1,29 @@
+.character {
+    display: flex;
+    background-color: white;
+}
+
+.character img {
+    display: block;
+}
+
+.character .info {
+    padding-left: 8px;
+    width: 340px;
+}
+
+.character .portrait > img {
+    height: 120px;
+    width: 160px;
+    display: block;
+}
+
+.character .info ul, .character .info li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.character .stats {
+    flex-grow: 1;
+}

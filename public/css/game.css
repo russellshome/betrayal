@@ -1,0 +1,292 @@
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header, main, footer {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.r90 {
+    transform: rotate(90deg);
+}
+
+.r180 {
+    transform: rotate(180deg);
+}
+
+.r270 {
+    transform: rotate(270deg);
+}
+
+.boardpair {
+    display: flex;
+}
+
+.boardlist {
+    margin-left: -15px;
+    margin-right: -15px;
+    /* display: flex; */
+}
+
+.boardpanel {
+    display: flex;
+}
+
+/*
+.boardelement {
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 8px;
+}
+*/
+
+.boardelement img {
+    display: block; /* Gets rid of space under image */
+}
+
+.boardelement .rotate {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 0 0 16px #333;
+}
+
+.character {
+    z-index: 1;
+}
+
+.character .portrait > img {
+    height: 120px;
+    width: 160px;
+}
+
+.character .name {
+    padding-bottom: 8px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.selection {
+    cursor: pointer;
+}
+
+.selection:hover {
+    background-color: rgba(220,220,220, 0.8);
+}
+
+.selection.active {
+    background-color: rgba(37, 73, 114, 0.8);
+}
+
+.info {
+    padding-left: 8px;
+}
+
+.stat {
+    display: flex;
+}
+
+
+.stat > div {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.stat > div.title {
+    width: 100px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.stat > div:not(:first-child) {
+    width: 24px;
+    text-align: center;
+}
+
+.stat > .value {
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+}
+.stat > .value.active {
+    background-color: yellow;
+}
+.stat > div:nth-last-child(2) {
+    border-right: 1px solid grey;
+}
+.stat > div:last-child {
+    padding-left: 2px;
+}
+
+.stat:last-child > .value {
+    border-bottom: 1px solid grey;
+}
+
+.info ul, .info li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.roomstack img, .room > img {
+    height: 120px;
+    width: 120px;
+}
+
+.floors {
+    display: flex;
+}
+
+.floor {
+    overflow: hidden;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+.floor h2 {
+    text-align: center;
+}
+
+.floors > div.floor:last-child {
+    border-right: 1px solid grey;
+}
+
+.floor.ground {
+    width: 60%;
+}
+.floor.upper, .floor.basement {
+    width: 20%;
+}
+
+.floor .possible {
+    height: 118px;
+    width: 118px;
+}
+
+.floor .interior {
+    position: absolute;
+}
+
+.floor .possible {
+    border: 1px dashed grey;
+    
+}
+
+.rooms {
+    overflow: scroll;
+}
+
+.rooms, .possiblerooms {
+    position: relative;
+}
+
+
+.rooms {
+    height: 500px;
+}
+
+.room {
+    height: 120px;
+    width: 120px;
+}
+
+.room img {
+    display: block;
+}
+
+.players {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.countercontainer {
+    position: absolute;
+    /* need diff positions for 1st upt to 6th */
+    top: 16px;
+    left: 8px;
+    cursor: pointer;
+}
+
+div.countercontainer:nth-child(2) {
+    left: 46px;
+}
+
+.countercontainer .character {
+    display: none;
+}
+
+
+/*
+.countercontainer:hover .character:not(:hover) {
+    display: block;
+}
+*/
+.counter {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.countercontainer[data-colour="yellow"] .counter {
+    background-color: yellow;
+}
+
+.countercontainer[data-colour="pink"] .counter {
+    background-color: pink;
+}
+
+.countercontainer[data-colour="blue"] .counter {
+    background-color: lightblue;
+}
+
+.playerinfo {
+    display: flex;
+}
+.playerinfo > div {
+    padding: 8px;
+}
+
+
+
+.card {
+    padding: 4px;
+}
+
+.card .description {
+    display: none;
+}
+
+.card button {
+    background-color:bisque;
+    border: none;
+    outline: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+.card .description {
+    position: absolute;
+    background-color: white;
+    padding: 8px;
+    width: 240px;
+    z-index: 1;
+}
+.card .description > div {
+    padding-bottom: 8px;
+}

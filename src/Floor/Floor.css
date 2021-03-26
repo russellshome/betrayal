@@ -1,0 +1,43 @@
+
+
+.floors {
+    display: flex;
+}
+
+.floor {
+    overflow: hidden;
+}
+
+.floor.ground {
+    width: 60%;
+}
+.floor.upper, .floor.basement {
+    width: 20%;
+}
+
+.floor .possible {
+    height: 118px;
+    width: 118px;
+    border: 1px dashed grey;
+    z-index: -1;
+}
+
+.floor .interior {
+    position: absolute;
+}
+
+
+.floor .rooms {
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.floor .interior {
+    position: absolute;
+    z-index: 1;
+}
+
+.floor h2 {
+    text-align: center;
+}
