@@ -24,6 +24,20 @@ class Character extends React.Component {
             knowledgeIdx: this.knowledges.idx
         };
         this.toggleDisplayContext = this.toggleDisplayContext.bind(this);
+        this.changeValue = this.changeValue.bind(this)
+    }
+
+    updateStats() {
+        this.speeds = this.getArray(this.props.character.Speed);
+        this.mights = this.getArray(this.props.character.Might);
+        this.sanitys = this.getArray(this.props.character.Sanity);
+        this.knowledges = this.getArray(this.props.character.Knowledge);
+        this.setState(state => ({
+            speedIdx: this.speeds.idx,
+            mightIdx: this.mights.idx,
+            sanityIdx: this.sanitys.idx,
+            knowledgeIdx: this.knowledges.idx
+        }))
     }
 
     toggleDisplayContext(e) {
@@ -60,12 +74,18 @@ class Character extends React.Component {
         return <img src={src} alt={name} />
     }
 
+    changeValue(valueType, amount, e) {
+        e.preventDefault()
+        this.props.changeValue(valueType, amount)
+        this.updateStats()
+    }
+
     stats() {
         return <div className="stats">
-            <Stat title="Speed" items={this.speeds.items} itemIdx={this.state.speedIdx} />
-            <Stat title="Might" items={this.mights.items} itemIdx={this.state.mightIdx} />
-            <Stat title="Sanity" items={this.sanitys.items} itemIdx={this.state.sanityIdx} />
-            <Stat title="Knowledge" items={this.knowledges.items} itemIdx={this.state.knowledgeIdx} />
+            <Stat title="Speed" changeValue={this.changeValue} items={this.speeds.items} itemIdx={this.state.speedIdx} allowManage={this.props.allowManage}/>
+            <Stat title="Might" changeValue={this.changeValue} items={this.mights.items} itemIdx={this.state.mightIdx}  allowManage={this.props.allowManage}/>
+            <Stat title="Sanity" changeValue={this.changeValue} items={this.sanitys.items} itemIdx={this.state.sanityIdx}  allowManage={this.props.allowManage}/>
+            <Stat title="Knowledge" changeValue={this.changeValue} items={this.knowledges.items} itemIdx={this.state.knowledgeIdx}  allowManage={this.props.allowManage}/>
         </div>
     }
 
@@ -89,8 +109,8 @@ class Character extends React.Component {
     }
 
     renderCompact() {
-        return <div className={"character"} onClick={this.toggleDisplayContext}>
-            <div className="portrait">
+        return <div className={"character"} >
+            <div className="portrait" onClick={this.toggleDisplayContext}>
                 {this.image()}
             </div>
             <div className="info">

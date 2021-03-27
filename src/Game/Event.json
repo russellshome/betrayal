@@ -1,0 +1,229 @@
+[
+    {
+        "Name": "A Moment Of Hope",
+        "Title": "Something feels strangely right about this room. Something is resisting the evil of the house.",
+        "Description": "Each hero rolls 1 additional die (maximum of 8 dice) on all trait rolls while in this room.",
+        "Token": "Blessing"
+    },
+    {
+        "Name": "Angry Being",
+        "Title": "It emerges from the slime on the wall next to you.",
+        "Description": "You must attempt a Speed roll:\n  5+ You get away. Gain 1 Speed.\n  2-4 Take 1 die of mental damage.\n  0-1 Take 1 die of mental damage and 1 die of physical damage"
+    },
+    {
+        "Name": "Bloody Vision",
+        "Title": "The walls of this room are damp with blood. The blood drips from the ceiling, down the walls, over the furniture, and onto your shoes. In a blink, it is gone.",
+        "Description": "You must attempt a Sanity roll:\n  4+ You steel yourself. Gain 1 Sanity, \n  2-3 Lose 1 Sanity.\n  0-1 If an explorer or monster is in your room or an adjacent one, you must attack it (if you can) Choose the explorer with the lowest Might, if possible."
+    },
+    {
+        "Name": "Burning Man",
+        "Title": "A man on fire runs through the room. His skin bubbles and cracks, falling away from him and leaving a fiery skull that clatters to the ground, bounces, rolls, and disappears.",
+        "Description": ""
+    },
+    {
+        "Name": "Closet Door",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Creepy Crawlies",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Creepy Puppet",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Debris",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Disquieting Sounds",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Drip Drip Drip",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Foot Steps",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Funeral",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Grave Dirt",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Grounds Keeper",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Hanged Men",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Hideous Shriek",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Image In The Mirror",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Image In The Mirror 2",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "It Is Meant To Be",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Jonah's Turn",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Lights Out",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Locked Safe",
+        "Title": "",
+        "Description": "",
+        "Token": "Safe"
+    },
+    {
+        "Name": "Mists From The Walls",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Mystic Slide",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Night View",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Phone Call",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Possession",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Revolving Wall",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Rotten",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Secret Passage",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Secret Stairs",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Shrieking Wind",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Silence",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Skeletons",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Smoke",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Something Hidden",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Something Slimy",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Spider",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "The Beckoning",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "The Lost One",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "The Voice",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "The Walls",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Webs",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "What The",
+        "Title": "",
+        "Description": ""
+    },
+    {
+        "Name": "Whoops",
+        "Title": "",
+        "Description": ""
+    }
+]

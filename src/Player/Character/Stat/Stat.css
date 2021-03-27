@@ -26,11 +26,9 @@
 .stat > .value.active {
     background-color: yellow;
 }
-.stat > div:nth-last-child(2) {
+
+.stat > .value:nth-child(10) {
     border-right: 1px solid grey;
-}
-.stat > div:last-child {
-    padding-left: 2px;
 }
 
 .stat:last-child > .value {
